@@ -1,9 +1,7 @@
-import testTpl from './test.handlebars';
-
-document.getElementById('js-creater')
-.addEventListener('click', ()=>{
-    document.body.insertAdjacentHTML(
-        'beforeend', 
-        testTpl({discription: 'This is my template'})
-        )
-})
+import './js/footer';
+import './js/header';
+import './js/main-section';
+import './js/modal';
+import './js/pagination';
+import './js/closing-modal-esc';
+import './js/change-theme';
