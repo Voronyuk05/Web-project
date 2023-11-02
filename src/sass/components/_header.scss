@@ -1,0 +1,48 @@
+header {
+    height: 114px;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 114px;
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            padding: 3%;
+            gap: 5%;
+            width: 30%;
+            a {
+                color: #FFF;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                text-transform: uppercase;
+                text-decoration: none;
+                position: relative;
+                &::before {
+                    content: '';
+                    top: -8px;
+                    left: 0;
+                    position: absolute;
+                    width: 0%;
+                    height: 4px;
+                    background: #BA0000;
+                    transition: 0.2s;
+                }
+                &:hover::before {
+                    width: 100%;
+                }
+            }
+        }
+        .tools {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            padding: 3%;
+            gap: 5%;
+            width: 30%;
+        }
+    }
+}
