@@ -1,0 +1,89 @@
+.hero {
+    .container {
+        .circus-wrapper {
+            width: 175.65px;
+            height: 480px;
+            overflow: hidden;
+            .circus {
+                width: 500px;
+                height: 500px;
+                border-radius: 50%;
+                border: 2px solid white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: end;
+                transform: translateX(-350px);
+                z-index: 1;
+                .box {
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 50%;
+                    border: 2px solid white;
+                    z-index: 99;
+                    transition: 0.4s;
+                    &:hover {
+                        transition: 0.4s;
+                    }
+                }
+                .dark {
+                    background-color: black;
+                    transform: translateX(8.5px);
+                    
+                    &:hover {
+                        transition: 0.4s;
+                        transform: translateX(8.5px)  scale(1.4);
+                    }
+                }
+                .blue {
+                    transform: translate(-5px ,-70px);
+                    background-color: #002B7B;
+                    &:hover {
+                        transition: 0.4s;
+                        transform: translate(-5px ,-70px)  scale(1.4);
+                    }
+                }
+                .pink {
+                    transform: translate(-52px ,-132px);
+                    background-color: #9B0E95;
+                    &:hover {
+                        transition: 0.4s;
+                        transform: translate(-52px ,-132px) scale(1.4);
+                    }
+                }
+                .brown {
+                    transform: translate(-115px ,-167px);
+                    background-color: #973030;
+                    &:hover {
+                        transition: 0.4s;
+                        transform: translate(-115px ,-167px)  scale(1.4);
+                    }
+                }
+                .red {
+                    transform: translate(-5px ,70px);
+                    background-color: #A8000A;
+                    &:hover {
+                        transition: 0.4s;
+                        transform: translate(-5px ,70px)  scale(1.4);
+                    }
+                }
+                .yellow {
+                    transform: translate(-52px , 132px);
+                    background-color: #86942F;
+                    &:hover {
+                        transition: 0.4s;
+                        transform: translate(-52px , 132px)  scale(1.4);
+                    }
+                }
+                .green {
+                    transform: translate(-115px ,167px);
+                    background-color: #3D996D;
+                    &:hover {
+                        transition: 0.4s;
+                        transform: translate(-115px ,167px)  scale(1.4);
+                    }
+                }
+            }
+        }
+    }
+}
