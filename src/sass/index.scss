@@ -1,7 +1,9 @@
 @import './base/common';
 @import './utils/colors';
 @import './components/header';
+@import './components/slider';
 
 body {
     background-color: black;
+    overflow-x: hidden;
 }
