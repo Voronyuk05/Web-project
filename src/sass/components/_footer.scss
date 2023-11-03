@@ -152,10 +152,11 @@
 
 				li {
 					font-family: Mulish;
+					font-size: 24px;
 
 					h4 {
 						font-family: Kanit;
-						font-size: 24px;
+						font-size: 28px;
 						font-style: italic;
 					}
 
@@ -168,6 +169,50 @@
 				li:not(:first-child) {
 					margin-top: 16px;
 				}
+			}
+
+
+		}
+	}
+
+	.copyrights-container {
+		margin-top: 110px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+
+		.copyright {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			width: 85%;
+
+			.text {
+				display: flex;
+
+				h6 {
+					color: #FFF;
+					font-family: Rajdhani;
+					font-size: 18px;
+					font-weight: 400;
+					text-transform: capitalize;
+				}
+
+				img {
+					margin-left: 8px;
+					margin-bottom: 12px;
+				}
+			}
+
+			.social-media {
+				width: 13%;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: center;
+
 			}
 
 
