@@ -1,5 +1,10 @@
 .hero {
+    background: no-repeat center;
+    background-image: url('../../assets/background-text.png');
     .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         .circus-wrapper {
             width: 175.65px;
             height: 480px;
@@ -85,5 +90,127 @@
                 }
             }
         }
+        .content {
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .wrapper-img {
+                img {
+                    width: 627px;
+                    height: 450px;
+                }
+            }
+            .text {
+                width: 592px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 20px;
+                .title {
+                    width: 100%;
+                    color: #FFF;
+                    font-family: 'Fira Sans', sans-serif;
+                    font-size: 38px;
+                    font-style: italic;
+                    font-weight: 700;
+                    line-height: 58px; /* 100% */
+                    letter-spacing: 10.68px;
+                    height: 116px;
+                }
+                .info {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    .price {
+                        width: 20%;
+                        display: flex;
+                        align-items: center;
+                        color: #FFF;
+                        font-family: 'Fira Sans', sans-serif;
+                        font-size: 30px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 36px; 
+                    }
+                    .apearence {
+                        width: 60%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 20px;
+                        .size {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: flex-start;
+                            justify-content: space-between;
+                            gap: 10px;
+                            h5 {
+                                color: #FFF;
+                                font-family: 'Fira Sans', sans-serif;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            select {
+                                color: #FFF;
+                                font-family: 'Fira Sans', sans-serif;
+                                font-size: 30px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                width: 50px;
+                                height: 50px;
+                                outline: none;
+                                border: none;
+                                background-color: rgba($color: #000000, $alpha: 0.0);
+                                option {
+                                    color: black;
+                                }
+                            }
+                        }
+                        .package {
+                            width: 24px;
+                            height: 24px;
+                            img {
+                                width: 24px;
+                                height: 24px;
+                            }
+                        }
+                    }
+                }
+                .wrapper-btn {
+                    width: 100%;
+                    button {
+                        color: white;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: center;
+                        width: 131px;
+                        height: 36px;
+                        flex-shrink: 0;
+                        border-radius: 36px;
+                        border: 1px solid #FFF;
+                        background-color: rgba($color: #000000, $alpha: 0.0);
+                        color: #FFF;
+                        font-family: 'Fira Sans', sans-serif;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 0px; /* 0% */
+                    }
+                }
+            }
+        }
     }
+}
+
+* {
+    margin: 0px;
 }

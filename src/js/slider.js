@@ -36,7 +36,6 @@ const nextBtn = document.querySelector('.switcher div#next')
 
 function renderSlides() {
     for (let slideDataItem of slidesData) {
-        console.log(slideDataItem.slideName);
         slides.innerHTML += slideTpl(slideDataItem)
     }
 }
